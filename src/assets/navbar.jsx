@@ -1,11 +1,9 @@
-/* eslint-disable no-unused-vars */
 import { useState, React } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../images/web-logo.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./navbar.css";
 const navbar = () => {
-  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [Mobile, setMobile] = useState(false);
   return (
     <nav className="nav">

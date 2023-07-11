@@ -10,7 +10,7 @@
   color: #131418;
   font-family: "Gowun Batang", serif;
   min-height: auto;
-  padding: 50px 0px;
+  padding: 20px 0px;
 }
 .review {
   background-color: #131418;
@@ -19,7 +19,7 @@
 }
 .margin {
   margin: 0 40px;
-  padding: 30px 0;
+  padding: 10px 0;
 }
 .flex {
   display: flex;
@@ -153,6 +153,7 @@ h2 {
 .footer {
   background-color: #131418;
   color: #f7ecec;
+  padding: 10px;
 }
 .footer .flexxx {
   display: flex;
@@ -195,5 +196,38 @@ h2 {
   .flexx {
     flex-direction: column;
     max-width: 190px;
+  }
+}
+
+.row {
+  min-height: 200px;
+  /* min-width: 160px; */
+  color: #f7ecec;
+  box-shadow: 0px 8px 16px 0px #393939b0;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  padding: 10px 20px;
+}
+.row h3 {
+  text-align: right;
+}
+.swiper {
+  background-color: #131418;
+  padding: 50px;
+}
+.swiper h1 {
+  color: #f7ecec;
+  text-align: center;
+  margin-bottom: 40px;
+  letter-spacing: 5px;
+}
+@media (max-width: 440px) {
+  .swiper {
+    background-color: #131413;
+    padding: 50px 10px;
+    /* all: unset; */
   }
 }

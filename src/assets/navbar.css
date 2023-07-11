@@ -3,11 +3,12 @@
 }
 .navbar {
   min-height: fit-content;
-  margin: 0 20px;
+  margin: 0 auto;
   padding: 20px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 1024px;
 }
 
 .nav-links {
@@ -86,7 +87,7 @@ button {
 .button:hover:before {
   top: 0;
 }
-@media (max-width: 640px) {
+@media (max-width: 650px) {
   .nav-links {
     display: none;
   }

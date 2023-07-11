@@ -48,7 +48,7 @@ export default () => {
           <SwiperSlide>
             <div className="row">
               <h4>
-                &quot;no cap started using this product two years ago, never
+                &quot;No cap started using this product two years ago, never
                 gone back to any other thing since...&quot;
               </h4>
               <h3>~Opa Silas</h3>

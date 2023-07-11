@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: space-between;
   max-width: 1024px;
+  font-size: 1rem;
 }
 
 .nav-links {
@@ -17,7 +18,6 @@
   align-items: center;
   font-family: "Gowun Batang", serif;
   font-weight: 400;
-  font-size: 22px;
 }
 li,
 a {
@@ -30,7 +30,7 @@ button {
   background: none;
   padding: 15px 30px;
   color: #f7ecec;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -45,15 +45,15 @@ button {
   font-family: "Gowun Batang", serif;
   padding: 15px 30px;
   color: #f7ecec;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .button {
   position: relative;
   display: block;
   padding: 15px 30px;
   font-family: "Gowun Batang", serif;
-  font-size: 15px;
-  letter-spacing: 2px;
+  font-size: 1rem;
+  letter-spacing: 1px;
   color: #f7ecec;
   border: 2px #f7ecec solid;
   border-radius: 4px;
@@ -103,7 +103,7 @@ button {
     background-color: #f4e2e2;
     font-family: "Gowun Batang", serif;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 1rem;
   }
   .mobile-link a,
   .dropbtn {
@@ -139,7 +139,7 @@ button {
 .dropbtn {
   border: none;
   font-family: "Gowun Batang", serif;
-  font-size: 22px;
+  font-size: 1rem;
 }
 
 .dropdown {

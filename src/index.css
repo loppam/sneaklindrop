@@ -26,14 +26,16 @@
   gap: 20px;
   max-width: 1024px;
   margin: 0 auto;
+  justify-content: space-between;
 }
 .flexx {
   display: flex;
   gap: 30px;
 }
 .left {
-  flex: 0 0 50%;
+  flex: 0 0 40%;
   display: flex;
+
   flex-direction: column;
   gap: 20px;
 }
@@ -108,15 +110,19 @@
 .arrow:hover {
   width: 130px;
 }
-
+.margin .flex .left h2 {
+  font-size: clamp(1.25rem, 3vw, 1.625rem);
+  margin-bottom: -15px;
+}
 .wide {
-  max-width: 80%;
+  max-width: 90%;
+  font-size: ;
 }
 .width {
   width: 120px;
 }
 h1 {
-  font-size: clamp(2rem, 2rem + ((1vw - 0.48rem) * 0.962), 2.5rem);
+  font-size: clamp(1.875rem, 4vw, 2.5rem);
   color: #393939;
 }
 
@@ -222,6 +228,9 @@ h2 {
 }
 .row h3 {
   text-align: right;
+}
+.row h4 {
+  font-size: clamp(1.3rem, 1.5vw, 1.2rem);
 }
 .swiper {
   background-color: #131418;
